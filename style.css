@@ -1,0 +1,101 @@
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #720455;
+    
+    height: 80vh;
+}
+.flex-item {
+    width: 100%;
+    max-width: 500px; /* Adjust this value as needed */
+    height: auto;
+}
+
+
+   
+
+.ahmad{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.jumbtron{
+    height: 70vh;
+    border: solid #720455;
+    background-color: #720455;
+}
+
+.programming,.sport{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: solid purple;
+    
+}
+.skill-1,.hobby{
+    height: 400px;
+    width: 400px;
+}
+.skills{height: 1000px;
+    width: 900px;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+}
+@media(max-width:748px){
+    .skills{width: 470px;
+        height: 700ox;
+        display: inline-flex;
+        justify-content: center;
+        gap: 5px;
+        align-items: center;
+
+    }
+
+}
+
+
+    
+
+.Contact{height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid purple;
+}
+button{
+    height: 40px;
+    width: 70px;
+    border: solid #720455;
+    border-radius: 20%;
+}
+.Contact>h1{
+    margin-bottom: 69px;
+}
+.footer{
+    height: 50vh;
+    background-color: #720455;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.footer>p{
+    color: antiquewhite;
+    align-self: center;
+    
+}
+.footer>a{
+    margin-top: 30px;
+}
+.Contact>P{
+    margin-top: 30px;
+    font-size: larger;
+}
+
+
